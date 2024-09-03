@@ -1,0 +1,181 @@
+
+body a  {
+  text-decoration: none;
+  color: white;
+  
+}
+body a:link {  		
+  color: #5F021F;  		
+  text-decoration:none;    	
+}    
+body a:visited {  		
+  color: #5F021F;  		
+  text-decoration:none;  	
+}    	
+body a:active {  		
+  background-color: #5F021F;  		
+  text-decoration:none;  	
+}    	
+body a:hover {  		
+  color:#5F021F;  		
+  text-decoration:none;  	
+} 
+body button{
+  border: none;
+  background-color: #b29146;
+}
+
+
+
+
+.logo{margin-right: 0;}
+
+.nameservice{
+  font: m;
+  color: #5F021F;
+  margin-left: 1%;
+}
+.services{
+  font-family: m;
+  color: rgb(0, 0, 0);
+ width: 30%;
+ margin-left: 30%;
+ margin-top: 5%;
+ border-radius: 1%;
+background-color: #caa756ad;
+}
+.services input{
+  background-color: #5F021F;
+  color: white;
+  border: none;
+  border-radius: 5%;
+}
+
+.services input:hover{
+  background-color: #af093e;
+  color: white;
+  border: none;
+  border-radius: 5%;
+}
+
+.servicos{
+  box-shadow: #b29146  0px 3px 5px; margin-top: 5%; margin-bottom: 5%; font-family: m;
+  height: 50px;
+
+}
+.servicos button{
+  margin-top: 2%;
+  margin-bottom: 2%;
+ border: 0.1px solid #5F021F ;
+ background-color: #b29146;
+  
+}
+
+.servicos button:hover{
+  
+  background-color: #e0c179;
+}
+  
+  .carousel-inner > .carousel-item > img {
+   
+    border-radius: 1%;
+    height: 600px; 
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3%;
+   
+  }
+  .cardsmenu{
+    justify-content: center;
+    display: inline-block;
+    margin-top: 8%;
+   
+    margin-bottom: 20%;
+   
+      border-radius: 2%;
+      opacity: 0.8;
+      transition: transform 0.5s, opacity 0.2s;
+
+      box-shadow: #b29146  0px 3px 5px;
+      border-radius: 2%;
+  }
+
+  .cardsmenu:hover {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+.card-text{text-align: left;}
+.carrs{
+background-color: #b2924679;
+
+height: 700px;
+
+
+
+ }  
+
+ .tit{font-weight: 200;}
+.text{color: white;font-size: 18px;margin-top: 0.3%; text-align: center; margin-right: 2%; font-family: m;padding: 10;}
+.menuop{margin-top:0.3%;padding: 0 0 0 2;}
+
+ @font-face {
+  font-family: "m";
+  src: url("./P22MayflowerSmooth.ttf");
+}
+.menuop a:hover{
+
+  padding-top: 1px;
+      box-shadow:#910630 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      border-radius: 2px;
+  }
+
+  .card{width:16rem;min-height: 690px;}
+ @media screen and  (max-width: 880px) {
+
+.sobre{
+  max-width: 100%;
+}
+
+  .spaceinbackoff{margin-left: 0%;}
+
+
+body{
+  background-color: #910630;
+}
+  
+  .card{width:10rem;font-size: small;min-height: 600px; }
+
+
+    .carrs{  background-color: none; background-image: none; height: 450px; position: relative; }
+
+    .carousel-inner > .carousel-item > img {
+   
+    border-radius: 0%;
+    height: 400px; 
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 5%;
+    position: relative;
+    }
+
+
+
+    .cardsmenu{
+    
+      box-shadow: #b29146  0px 3px 5px;
+      border-radius: 2%;
+
+      display: inline-block;
+      margin-top: 20%;
+      
+      margin-bottom: 5%;
+      opacity: 1;
+  
+    }
+ 
+    .fot{margin-top: 100%;}
+
+
+
+  }
